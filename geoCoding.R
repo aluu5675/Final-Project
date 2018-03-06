@@ -16,9 +16,8 @@ for(i in 1:nrow(dat)) {
   } else {
     dat$lon[i] <- NA
     dat$lat[i] <- NA
-    dat$geoAddress[i] <- NA
   }
-  Sys.sleep(0.5) # to prevent exceeting query limit time out 
+  Sys.sleep(0.5) # to prevent exceeding query limit time out 
 }
 
 
