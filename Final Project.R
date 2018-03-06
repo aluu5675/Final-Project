@@ -62,3 +62,6 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
 
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
+source('ui.r')
+source('server.r')
+shinyApp(ui = ui, server = server)
