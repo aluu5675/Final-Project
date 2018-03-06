@@ -1,5 +1,45 @@
 # UI for Plane Crash App
+library(shinythemes)
+
 ui <- fluidPage(
   
+  theme = shinytheme("superhero"),
   
+  includeCSS("style.css"),
+  
+  
+  titlePanel(h1("Plane Crash Data from 1920-2018")
+           
+   
+  ),
+  
+  sidebarLayout(
+    
+     sidebarPanel(
+    
+     p("This data was collected from the Aviation Safety
+               Network Database, containing descriptions of the 
+               incidents with the aircraft type, operator, date,
+               and location of the crash."),
+     br()
+     
+     ),
+  
+  
+  mainPanel(                     
+    
+    tabsetPanel(type = "tabs",
+                
+                tabPanel(strong("Table for Operator"), br(),
+                         p("The data table gives a list of the operators involved in the crashes in the given years.")),
+                tabPanel(strong("Map of Crashes"))
+                
+                
+    )
+    
+    
+  )
+  
+  )
 )
+
