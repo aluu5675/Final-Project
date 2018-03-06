@@ -1,8 +1,8 @@
 # For Data-Wrangling
 library(dplyr)
 library(stringr)
-
-source("data.R")
+ 
+source("tabledata.R")
 
 dat$location <- gsub("near", "", dat$location)
 dat <- mutate(dat, occurence = 1) 
@@ -30,7 +30,11 @@ summary_year_military_plane <- group_by(data_year_military, type) %>%
             total_fatality = sum(as.numeric(!is.na(fat.))),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-data_year_private <- filter(data_year, str_detect(operator, fixed("private", ignore_case = TRUE)))
+
+
+data_year_private <- filter(data_year, operator == "private" |
+                                       operator == "Private")
+
 summary_year_private_operator <- group_by(data_year_private, operator) %>%
   summarize(total_occurence = sum(occurence),
             total_fatality = sum(as.numeric(!is.na(fat.))),
@@ -54,7 +58,6 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
   summarize(total_occurence = sum(occurence),
             total_fatality = sum(as.numeric(!is.na(fat.))),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
-View(summary_year_other_plane)
 
 
 # data_month <- dat
