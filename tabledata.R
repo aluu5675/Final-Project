@@ -50,7 +50,7 @@ for (year in startyear:endyear) {
 }
 
 # get rid of "near" rows
-dat$location <- sapply("near", gsub, "" ,dat$location)
+dat$location <- sapply("near ", gsub, "" ,dat$location)
 
 
 
