@@ -27,8 +27,8 @@ for(i in 1:nrow(dat)) {
     dat$lon[i] <- NA
     dat$lat[i] <- NA
   }
-  Sys.sleep(0.3)# to prevent exceeding query limit time out 
+  Sys.sleep(0.2)# to prevent exceeding query limit time out 
 }
-
+qa
 
 
