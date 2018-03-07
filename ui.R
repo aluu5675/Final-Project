@@ -1,4 +1,5 @@
 # UI for Plane Crash App
+library(shiny)
 library(shinythemes)
 library(plotly)
 ui <- fluidPage(
@@ -38,19 +39,6 @@ ui <- fluidPage(
                 
                 tabPanel(strong("Table for Operator"), br(),
                          p("The data table gives a list of the operators involved in the crashes in the given years.")),
-                fluidRow(
-                  
-                  column(4,
-                         wellPanel(
-                           sliderInput("obs", "Number of observations:",  
-                                       min = 1, max = 1000, value = 500)
-                         )       
-                  ),
-                  
-                  column(8,
-                         plotOutput("distPlot")
-                  )
-                ),
                 tabPanel(strong("Map of Crashes"), br(),
                          plotOutput('plot'))
                 

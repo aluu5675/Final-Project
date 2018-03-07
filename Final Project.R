@@ -1,7 +1,7 @@
 # For Data-Wrangling
 library(dplyr)
 library(stringr)
- 
+library(plotly)
 source("tabledata.R")
 
 dat$location <- gsub("near", "", dat$location)
