@@ -4,7 +4,7 @@ library("rvest")
 
 # set-up of initial values
 startyear <- 1920
-endyear <- 1929
+endyear <- 2018
 
 url_init <- "http://aviation-safety.net/database/dblist.php?Year="
 
@@ -48,9 +48,3 @@ for (year in startyear:endyear) {
   }
   
 }
-
-# get rid of "near" rows
-dat$location <- sapply("near ", gsub, "" ,dat$location)
-
-
-

@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Lobster';
+  color: white;
+  background-color: grey;
+  padding: 20px;
+}
+
+p {
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.original {
+  background-color: coral;
+}
+
+.intro {
+  font-weight: lighter;
+}
