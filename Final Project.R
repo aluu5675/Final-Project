@@ -1,11 +1,8 @@
 # For Data-Wrangling
 library(dplyr)
 library(stringr)
-<<<<<<< HEAD
 library(plotly)
 source("tabledata.R")
-=======
->>>>>>> 097953d281a72f1526a803350dfd316259f14802
 
 passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
 dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
