@@ -6,6 +6,8 @@ library("rvest")
 startyear <- 1920
 endyear <- 2018
 
+
+
 url_init <- "http://aviation-safety.net/database/dblist.php?Year="
 
 # initiate empty dataframe, in which we will store the data

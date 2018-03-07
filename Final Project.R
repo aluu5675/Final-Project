@@ -1,10 +1,12 @@
 # For Data-Wrangling
 library(dplyr)
 library(stringr)
- 
-source("tabledata.R")
-source("totalpassenger.R")
 
+source("totalpassenger.R")
+dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
+
+
+write.csv(dat, file = "dat.csv")
 dat$location <- gsub("near ", "", dat$location)
 dat <- mutate(dat, occurence = 1) 
 
@@ -68,8 +70,6 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-
-View(data_year_other_ratio)
 
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
