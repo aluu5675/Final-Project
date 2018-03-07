@@ -1,3 +1,5 @@
-# Ignore R history and Data
-.RData
-.Rhistory
+# Ignore R  Data
+**.RData
+
+#Ignore history
+**.Rhistory
