@@ -1,0 +1,6 @@
+
+# Ignore R history and Data
+.RData
+.Rhistory
+
+
