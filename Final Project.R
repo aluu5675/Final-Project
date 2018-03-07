@@ -2,13 +2,8 @@
 library(dplyr)
 library(stringr)
 
-source("totalpassenger.R")
+passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
 dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
-
-
-write.csv(dat, file = "dat.csv")
-dat$location <- gsub("near ", "", dat$location)
-dat <- mutate(dat, occurence = 1) 
 
 data_year <- dat
 data_year$year <- str_sub(data_year$date, -4, -1)
@@ -58,7 +53,7 @@ data_year_other_ratio <- group_by(data_year_other, year) %>%
   summarize(total_occurence = sum(occurence),
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)),
-            ratio = 100 * total_fatality / passenger[1])
+            ratio = 100 * total_fatality / passenger.info[1])
 
 summary_year_other <- group_by(data_year_other, operator) %>%
   summarize(total_occurence = sum(occurence),
@@ -76,3 +71,4 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
 source('ui.r')
 source('server.r')
 shinyApp(ui = ui, server = server)
+
