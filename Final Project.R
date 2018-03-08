@@ -12,7 +12,6 @@ passenger.info$year <- sapply(passenger.info$year, as.character)
 
 #same thing but year column attached MAIN data frame 
 data_year <- left_join(data_year, passenger.info, by = c("year" = "year"))
-write.csv(data_year, file = "data/mapvalues.csv", row.names = FALSE)
 
 #includes fatality average for each year and actual fatality number
 # ratio is occurence of crash / fatality 
