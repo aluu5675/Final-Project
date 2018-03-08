@@ -1,6 +1,7 @@
 # Server for Plane Crash App
 library(plotly)
 library("rworldmap")
+library('shiny')
 server <- function(input, output) {
   output$plot <- renderPlot({
     p <- plot_ly (
