@@ -41,29 +41,29 @@ ui <- fluidPage(
        these incidents based on the date."),
      br(),
      
+     radioButtons("type", "Operator Type:",
+                  c("Military" = "military",
+                    "Private" = "private",
+                    "All data" = "data")),
+     
+     br(),
+     
      sliderInput("year",
                  "Year for Chart:",
                  value = c(1968,2018),
                  min = 1920,
                  max = 2018, 
                  dragRange = TRUE
-                 ),
+     ),
+     
      
      br(),
-     
-     
      
      sliderInput("fatalities", "Select the Range of Fatalities to Display:", 
                  value = c(0, max.for.fatality.slider),
                  min = 0,
                  max = max.for.fatality.slider),
      
-     br(),
-     
-     radioButtons("type", "Operator Type:",
-                  c("Military" = "military",
-                    "Private" = "private",
-                    "All data" = "data")),
      br(),
      
      a("Reference", href="https://aviation-safety.net/database/")
@@ -90,21 +90,6 @@ ui <- fluidPage(
                          dataTableOutput('table')),
   
                 
-                    
-                
-                tabPanel(strong("Map of Crashes"), br(), 
-                         p("On the map, we can see the places of where
-                           each plane site crash was by the given year.
-                           This gives a visual of where these types of crash
-                           sites are in the world. This also can give us a 
-                           sense of the country of where the biggest accident was
-                           This could be explained by the current events happening
-                           in that country during that time. By placing values
-                           the largest number of fatalies within that given
-                           year on the map, we can see which plane accidents
-                           had the greatest impact during that year and how
-                           these crashes have changed along the years."),
-                         leafletOutput('map')),
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
                          p("The pie chart represents an overview of the fatalities
@@ -113,7 +98,22 @@ ui <- fluidPage(
                            more of the current years become less induced into having
                            fatalies per accident because there are more safety
                            precautions taken on plane travel during this age."),
-                         plotlyOutput("pi.chart")
+                         plotlyOutput("pi.chart")),
+                         
+                tabPanel(strong("Map of Crashes"), br(), 
+                         p("On the map, we can see the places of where
+                            each plane site crash was by the given year.
+                            This gives a visual of where these types of crash
+                            sites are in the world. This also can give us a 
+                            sense of the country of where the biggest accident was
+                            This could be explained by the current events happening
+                            in that country during that time. By placing values
+                            the largest number of fatalies within that given
+                            year on the map, we can see which plane accidents
+                            had the greatest impact during that year and how
+                            these crashes have changed along the years."),
+                         leafletOutput('map'))            
+                
                 
                 
     )
@@ -122,4 +122,4 @@ ui <- fluidPage(
   
   )
 )
-)
+
