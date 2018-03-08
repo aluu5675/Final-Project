@@ -42,7 +42,7 @@ ui <- fluidPage(
      br(),
      
      sliderInput("year",
-                 "Year:",
+                 "Year for Chart:",
                  value = c(1968,2018),
                  min = 1920,
                  max = 2018, 
@@ -78,10 +78,10 @@ ui <- fluidPage(
                 
                 tabPanel(strong("Table for Operator"), br(),
                          p("The data table gives a list of the operators involved in
-                           the crashes in the given years. By organizing the data by 
-                           military operators, private operators, or by any other operators 
-                           we can see which types of operators are involved in the most accidents
-                           based on their category by that given year. This gives a sense 
+                           the crashes. By organizing the data by military operators,
+                           private operators, or by any other operators we can see
+                           which types of operators are involved in the most accidents
+                           based on their category. This gives a sense 
                            of the types of events that could've been happening during
                            that time. There's a total occurrence column to indicate
                            the total number of occurrences of accidents by that operator
@@ -89,17 +89,6 @@ ui <- fluidPage(
                            and an average fatality."), 
                          dataTableOutput('table')),
   
-                
-                tabPanel(strong("Plots of Crash Data by Year"), br(), 
-                         p("The plots display graphs of average fatality
-                           over the given year due to plane crash accidents.
-                           We can see that fatalities are commonly low in
-                           the beginning years since traveling by plane is
-                           not as prevalent during this time period. Throughout 
-                           later decades, more and more accident become
-                           greater since planes are becoming a more a efficient
-                           way of travel. Safety becomes a greater priority in
-                           the current decade compared to the previous years.")),
                 
                     
                 
@@ -115,11 +104,11 @@ ui <- fluidPage(
                            year on the map, we can see which plane accidents
                            had the greatest impact during that year and how
                            these crashes have changed along the years."),
-                         plotOutput('plot')),
+                         leafletOutput('map')),
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
                          p("The pie chart represents an overview of the fatalities
-                           by their year. The percentages represent each year's share
+                           by a range of years. The percentages represent each year's share
                            of the number of fatalities by their ratio. As we can see,
                            more of the current years become less induced into having
                            fatalies per accident because there are more safety

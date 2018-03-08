@@ -3,6 +3,8 @@
 library("rworldmap")
 library('shiny')
 source("Final Project.R")
+library(leaflet)
+source("MAPSTART.R")
 
 server <- function(input, output) {
 
@@ -59,15 +61,14 @@ server <- function(input, output) {
   
   
   
-  output$plot <- renderPlot({
-    p <- plotly (
-      type = 'scattergeo',
-      lon = c( 42, 39 ) ,
-      lat =c( 12, 50 ) ,
-      text =c( 'Rome' , 'Greece') ,
-      mode = 'markers' )
-    
-    print(p)
-    
+  output$map <- renderLeaflet({
+    leaflet(mapping.data) %>%
+      addTiles() %>%
+      setView(lng = -10.51668566, lat = 34.36477579, zoom = 2) %>%
+      addProviderTiles(providers$CartoDB.Positron) %>%
+      addMarkers(mapping.data$lon, mapping.data$lat,
+                 label = paste0(as.character(mapping.data$year), ", ",
+                                as.character(mapping.data$operator),
+                                ", ", as.character(mapping.data$fat.)))
   })
 }
