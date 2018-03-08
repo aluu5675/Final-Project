@@ -58,7 +58,12 @@ ui <- fluidPage(
                          p("The data table gives a list of the operators involved in
                            the crashes in the given years. By organizing the data by 
                            military operators, we can see which types of operators
-                           are involved in the most accidents.")),
+                           are involved in the most accidents."), 
+                         radioButtons("type", "Operator Type:",
+                                      c("Military" = "military",
+                                        "Private" = "private",
+                                        "Other" = "other")),  
+                         dataTableOutput('table')),
   
                 
                 tabPanel(strong("Plots of Crash Data by Year"), br(), 
