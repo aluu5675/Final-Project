@@ -38,12 +38,6 @@ summary_year_military_plane <- group_by(data_year_military, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-View(summary_year_military_plane)
-
-<<<<<<< HEAD
-
-=======
->>>>>>> remotes/origin/master
 # only contains private operators
 data_year_private <- filter(data_year, operator == "private" |
                               operator == "Private")
@@ -81,7 +75,7 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-View(summary_year_other_plane)
+
 
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
