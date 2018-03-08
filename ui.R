@@ -36,6 +36,14 @@ ui <- fluidPage(
        these incidents based on the date."),
      br(),
      
+     sliderInput("year",
+                 "Year:",
+                 value = 1968,
+                 min = 1920,
+                 max = 2018),
+     
+     br(),
+     
      a("Reference", href="https://aviation-safety.net/database/")
      
      
@@ -50,12 +58,8 @@ ui <- fluidPage(
                          p("The data table gives a list of the operators involved in
                            the crashes in the given years. By organizing the data by 
                            military operators, we can see which types of operators
-                           are involved in the most accidents."),
-                         sliderInput("year",
-                                     "Year:",
-                                     value = 1968,
-                                     min = 1920,
-                                     max = 2018)),
+                           are involved in the most accidents.")),
+  
                 
                 tabPanel(strong("Plots of Crash Data by Year"), br(), 
                          p("The plots display graphs of average fatality
@@ -66,13 +70,8 @@ ui <- fluidPage(
                            later decades, more and more accident become
                            greater since planes are becoming a more a efficient
                            way of travel. Safety becomes a greater priority in
-                           the current decade compared to the previous years."),
-                         numericInput("crash year",
-                                      "Crash Year:",
-                                      value = 1968,
-                                      min = 1920,
-                                      max = 2018,
-                                      step = 1)),
+                           the current decade compared to the previous years.")),
+                    
                 
                 tabPanel(strong("Map of Crashes"), br(), 
                          p("On the map, we can see the places of where
@@ -83,16 +82,10 @@ ui <- fluidPage(
                            accidents are occurring. This could be explained
                            by the current events happening in that country
                            during that time."),
-                         sliderInput("date",
-                                     "Date:",
-                                     value = 1968,
-                                     min = 1920,
-                                     max = 2018),
                          plotOutput('plot'))
                 
                 
     )
-    
     
   )
   
