@@ -20,26 +20,28 @@ dat$fat. <- as.numeric(dat$fat.)
 highest <- highest %>%
        group_by(year) %>%
        summarize(fat. = max(fat., na.rm = TRUE))
-View(highest)
+
 
 highest <- left_join(highest, dat, by = c("fat.", "year"))
+highest$location <- sapply(highest$location, str_replace, " ", "+")
+
 
 # Loop through the addresses to get the latitude and longitude of each address and add it to the
 # 'dat' data frame in new columns lat and lon
 
 for(i in 1:nrow(highest)) {
   if (is.character(highest$location[i])) { 
-  result <- geocode(dat$location[i], output = "latlon", source = "dsk")
+  result <- geocode(dat$location[i], output = "latlon", source = "google")
   highest$lon[i] <- as.numeric(result[1])
   highest$lat[i] <- as.numeric(result[2])
   } else {
     highest$lon[i] <- NA
     highest$lat[i] <- NA
   }
-  Sys.sleep(0.4)# to prevent exceeding query limit time out 
+  Sys.sleep(0.3)# to prevent exceeding query limit time out 
 }
 
-write.csv()
-warnings()
+
 
 View(highest)
+  
