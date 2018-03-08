@@ -34,7 +34,7 @@ ui <- fluidPage(
      
      h2(strong("Purpose")),
      
-     p("By extracting the data based location, fatalities, and operator,
+     p("By extracting the data based on location, fatalities, and operator,
        we can see how plane crash accidents have evolved over the years
        and the number of deaths that have occurred from these incidents.
        We can also infer what has happened through history to explain
