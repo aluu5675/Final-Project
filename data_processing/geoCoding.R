@@ -41,7 +41,6 @@ for(i in 1:nrow(highest)) {
   Sys.sleep(0.3)# to prevent exceeding query limit time out 
 }
 
+write.csv(highest, "highest.csv", row.names = FALSE)
 
-
-View(highest)
   
