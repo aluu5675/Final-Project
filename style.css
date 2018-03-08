@@ -7,12 +7,12 @@ h1 {
 
 h2 {
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 p {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .original {
@@ -27,3 +27,4 @@ p {
   background: url(https://i.ytimg.com/vi/SmHY3xqRmP4/maxresdefault.jpg);
   width: : 100%;
 }
+
