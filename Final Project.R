@@ -39,6 +39,10 @@ summary_year_military_plane <- group_by(data_year_military, type) %>%
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> experiment
 # only contains private operators
 data_year_private <- filter(data_year, operator == "private" |
                               operator == "Private")
