@@ -12,7 +12,7 @@ passenger.info$year <- sapply(passenger.info$year, as.character)
 
 #same thing but year column attached MAIN data frame 
 data_year <- left_join(data_year, passenger.info, by = c("year" = "year"))
-
+write.csv(data_year, file = "data/mapvalues.csv", row.names = FALSE)
 
 #includes fatality average for each year and actual fatality number
 # ratio is occurence of crash / fatality 
@@ -39,7 +39,6 @@ summary_year_military_plane <- group_by(data_year_military, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-View(summary_year_military_plane)
 
 # only contains private operators
 data_year_private <- filter(data_year, operator == "private" |
@@ -78,7 +77,6 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-View(summary_year_other_plane)
 
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
