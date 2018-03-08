@@ -51,30 +51,42 @@ ui <- fluidPage(
      
      br(),
      
-     a("Reference", href="https://aviation-safety.net/database/"),
+     
      
      sliderInput("fatalities", "Select the Range of Fatalities to Display:", 
                  value = c(0, max.for.fatality.slider),
                  min = 0,
-                 max = max.for.fatality.slider)
-                 
+                 max = max.for.fatality.slider),
      
+     br(),
+     
+     radioButtons("type", "Operator Type:",
+                  c("Military" = "military",
+                    "Private" = "private",
+                    "All data" = "data")),
+     br(),
+     
+     a("Reference", href="https://aviation-safety.net/database/")
+                 
      
      ),
    
   
   mainPanel(                     
-    radioButtons("type", "Operator Type:",
-                 c("Military" = "military",
-                   "Private" = "private",
-                   "All data" = "data")), 
+    
     tabsetPanel(type = "tabs",
                 
                 tabPanel(strong("Table for Operator"), br(),
                          p("The data table gives a list of the operators involved in
                            the crashes in the given years. By organizing the data by 
-                           military operators, we can see which types of operators
-                           are involved in the most accidents."), 
+                           military operators, private operators, or by any other operators 
+                           we can see which types of operators are involved in the most accidents
+                           based on their category by that given year. This gives a sense 
+                           of the types of events that could've been happening during
+                           that time. There's a total occurrence column to indicate
+                           the total number of occurrences of accidents by that operator
+                           type, a total fatalties for the number of fatalies overall,
+                           and an average fatality."), 
                          dataTableOutput('table')),
   
                 
@@ -96,14 +108,22 @@ ui <- fluidPage(
                            each plane site crash was by the given year.
                            This gives a visual of where these types of crash
                            sites are in the world. This also can give us a 
-                           sense of the country of where most of these 
-                           accidents are occurring. This could be explained
-                           by the current events happening in that country
-                           during that time."),
+                           sense of the country of where the biggest accident was
+                           This could be explained by the current events happening
+                           in that country during that time. By placing values
+                           the largest number of fatalies within that given
+                           year on the map, we can see which plane accidents
+                           had the greatest impact during that year and how
+                           these crashes have changed along the years."),
                          plotOutput('plot')),
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
-                         p(""),
+                         p("The pie chart represents an overview of the fatalities
+                           by their year. The percentages represent each year's share
+                           of the number of fatalities by their ratio. As we can see,
+                           more of the current years become less induced into having
+                           fatalies per accident because there are more safety
+                           precautions taken on plane travel during this age."),
                          plotlyOutput("pi.chart")
                 
                 
