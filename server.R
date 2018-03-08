@@ -1,4 +1,5 @@
 # Server for Plane Crash App
+library('shiny')
 server <- function(input, output) {
   output$plot <- renderPlotly({
     blank_layer <- list(

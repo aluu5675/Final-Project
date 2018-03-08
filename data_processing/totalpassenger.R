@@ -1,5 +1,5 @@
 
-original_country_year <- read.csv("data/passenger.csv", stringsAsFactors = FALSE, skip = 4)
+original_country_year <- read.csv("passenger.csv", stringsAsFactors = FALSE, skip = 4)
 
 passenger <- c()
 year <- c()
