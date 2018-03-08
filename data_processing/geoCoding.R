@@ -1,34 +1,45 @@
 #load ggmap
 
 #INSTALL THESE PACKAGES
-#install.packages('devtools')
-#devtools::install_github("dkahle/ggmap")
+install.packages('devtools')
+devtools::install_github("dkahle/ggmap")
 library("ggplot2")
 library("ggmap")
-source('../apikey/apikey.R')
+library("dplyr")
+source('../apikey.R')
 
 #register using your api key
 register_google(api.key)
  
 # data frame resulting from tabledata.R program
-dat <- dat 
+dat <- read.csv('../data/mapvalues.csv', stringsAsFactors = FALSE)
+typeof(dat$fat.[1])
+highest <- as.data.frame(dat)
+highest$fat. <- as.numeric(highest$fat.)
+dat$fat. <- as.numeric(dat$fat.)
+highest <- highest %>%
+       group_by(year) %>%
+       summarize(fat. = max(fat., na.rm = TRUE))
+View(highest)
 
-
+highest <- left_join(highest, dat, by = c("fat.", "year"))
 
 # Loop through the addresses to get the latitude and longitude of each address and add it to the
 # 'dat' data frame in new columns lat and lon
 
-for(i in 1:nrow(dat)) {
-  if (is.character(dat$location[i])) { 
-  result <- geocode(dat$location[i], output = "latlon", source = "google")
-  dat$lon[i] <- as.numeric(result[1])
-  dat$lat[i] <- as.numeric(result[2])
+for(i in 1:nrow(highest)) {
+  if (is.character(highest$location[i])) { 
+  result <- geocode(dat$location[i], output = "latlon", source = "dsk")
+  highest$lon[i] <- as.numeric(result[1])
+  highest$lat[i] <- as.numeric(result[2])
   } else {
-    dat$lon[i] <- NA
-    dat$lat[i] <- NA
+    highest$lon[i] <- NA
+    highest$lat[i] <- NA
   }
-  Sys.sleep(0.2)# to prevent exceeding query limit time out 
+  Sys.sleep(0.4)# to prevent exceeding query limit time out 
 }
-qa
 
+write.csv()
+warnings()
 
+View(highest)
