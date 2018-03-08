@@ -11,13 +11,15 @@ install.packages("shiny")
 passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
 dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
 
+
 data_year <- dat
 data_year$year <- str_sub(data_year$date, -4, -1)
+passenger.info$year <- sapply(passenger.info$year, as.character)
 
 #same thing but year column attached
 data_year <- left_join(data_year, passenger.info, by = c("year" = "year"))
 
-#
+#includes fatality 
 data_year_general <- group_by(data_year, year) %>%
   summarize(total_occurence = sum(occurence),
             total_fatality = sum(as.numeric(fat.), na.rm = T),

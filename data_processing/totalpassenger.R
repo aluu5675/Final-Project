@@ -15,6 +15,8 @@ for (col in 17 : ncol(original_country_year) - 2) {
 
 passenger.info <- data.frame(year, passenger)
 passenger.info$year <- gsub("X", "", passenger.info$year)
+
+
 # passenger.info$year <- sapply("X", gsub, "" , passenger.info$year)
 
 write.csv(passenger.info, file = "passenger_info.csv", row.names = FALSE)
