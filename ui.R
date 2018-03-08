@@ -2,6 +2,11 @@
 library(shiny)
 library(shinythemes)
 library(plotly)
+source("Final Project.R")
+
+
+max.for.fatality.slider <- max(as.numeric(data_updated$total_fatality), na.rm = TRUE)
+  
 ui <- fluidPage(
   
   theme = shinytheme("slate"),
@@ -38,20 +43,31 @@ ui <- fluidPage(
      
      sliderInput("year",
                  "Year:",
-                 value = 1968,
+                 value = c(1968,2018),
                  min = 1920,
-                 max = 2018),
+                 max = 2018, 
+                 dragRange = TRUE
+                 ),
      
      br(),
      
-     a("Reference", href="https://aviation-safety.net/database/")
+     a("Reference", href="https://aviation-safety.net/database/"),
+     
+     sliderInput("fatalities", "Select the Range of Fatalities to Display:", 
+                 value = c(0, max.for.fatality.slider),
+                 min = 0,
+                 max = max.for.fatality.slider)
+                 
      
      
      ),
    
   
   mainPanel(                     
-    
+    radioButtons("type", "Operator Type:",
+                 c("Military" = "military",
+                   "Private" = "private",
+                   "All data" = "data")), 
     tabsetPanel(type = "tabs",
                 
                 tabPanel(strong("Table for Operator"), br(),
@@ -59,10 +75,6 @@ ui <- fluidPage(
                            the crashes in the given years. By organizing the data by 
                            military operators, we can see which types of operators
                            are involved in the most accidents."), 
-                         radioButtons("type", "Operator Type:",
-                                      c("Military" = "military",
-                                        "Private" = "private",
-                                        "Other" = "other")),  
                          dataTableOutput('table')),
   
                 
@@ -76,6 +88,7 @@ ui <- fluidPage(
                            greater since planes are becoming a more a efficient
                            way of travel. Safety becomes a greater priority in
                            the current decade compared to the previous years.")),
+                
                     
                 
                 tabPanel(strong("Map of Crashes"), br(), 
@@ -87,7 +100,11 @@ ui <- fluidPage(
                            accidents are occurring. This could be explained
                            by the current events happening in that country
                            during that time."),
-                         plotOutput('plot'))
+                         plotOutput('plot')),
+                
+                tabPanel(strong("Pi Chart of Crashes"), br(),
+                         p(""),
+                         plotlyOutput("pi.chart")
                 
                 
     )
@@ -96,4 +113,4 @@ ui <- fluidPage(
   
   )
 )
-
+)

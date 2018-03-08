@@ -2,6 +2,7 @@
 library(dplyr)
 library(stringr)
 
+
 passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
 dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
 
@@ -39,10 +40,7 @@ summary_year_military_plane <- group_by(data_year_military, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 4cd5150aac69e321033c437cc6a9fb526160fcde
 # only contains private operators
 data_year_private <- filter(data_year, operator == "private" |
                               operator == "Private")
@@ -63,6 +61,8 @@ summary_year_private_plane <- group_by(data_year_private, type) %>%
 data_year_ex_military <- setdiff(data_year, data_year_military)
 data_year_other <- setdiff(data_year_ex_military, data_year_private)
 
+
+
 # other
 data_year_other_ratio <- group_by(data_year_other, year) %>%
   summarize(total_occurence = sum(occurence),
@@ -80,13 +80,42 @@ summary_year_other_plane <- group_by(data_year_other, type) %>%
             total_fatality = sum(as.numeric(fat.), na.rm = T),
             average_fatality = mean(round(total_fatality / total_occurence, digits = 2)))
 
-<<<<<<< HEAD
+#UPDATED PRIVATE TABLE: CONTAINS YEAR AND DATE AND MODEL NAME.
+summary_year_private_year <- summary_year_private_plane %>% 
+  left_join(data_year_private, by = "type") %>% 
+  select(date, type, 
+         total_occurence,
+         total_fatality,
+         average_fatality, 
+         location, 
+         year)
 
-=======
->>>>>>> 4cd5150aac69e321033c437cc6a9fb526160fcde
+
+#UPDATED MILITARY TABLE: CONTAINS YEAR AND DATE AND MODEL NAME.
+summary_year_military_year <- left_join(summary_year_military_plane, 
+                                        data_year_military, by ="type") %>%  
+  select(date, type, 
+         total_occurence,
+         total_fatality,
+         average_fatality, 
+         location, 
+         year)
+
+#UPDATED OTHER PLANE TABLE: CONTAINS YEAR AND DATE AND MODEL NAME.
+summary_year_other_year <- summary_year_other_plane %>% 
+  left_join(data_year_other) %>% 
+  select(date, type, 
+         total_occurence,
+         total_fatality,
+         average_fatality, 
+         location, 
+         year)
+
+#UPDATED OVERALL TABLE
+data_updated <- data_year 
+colnames(data_updated)[colnames(data_updated) == "fat."] <- "total_fatality"
+data_updated[7:8] <- NULL
 
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
-source('ui.r')
-source('server.r')
-shinyApp(ui = ui, server = server)
+
