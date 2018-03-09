@@ -109,7 +109,11 @@ ui <- fluidPage(
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
                          p("The pie chart represents an overview of the fatalities
-                           by a range of years. The percentages represent each year's share
+                           by a range of years. The highest fatality ratios (calculated by dividing the 
+                           total fatalities of the flight divided by the total crashes recorded that
+                          year) are shown automatically for each year.
+
+                           The percentages represent each year's share
                            of the number of fatalities by their ratio. As we can see,
                            more of the current years become less induced into having
                            fatalies per accident because there are more safety
