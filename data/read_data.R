@@ -1,6 +1,7 @@
 
   #read data frames
-
+ 
+ options(warn = -1)
  passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
  dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
  highest <- read.csv("data/highest.csv", stringsAsFactors = FALSE)

@@ -1,0 +1,844 @@
+"type","total_occurence","total_fatality","average_fatality"
+"Alenia C-27J Spartan",1,0,0
+"Alenia G-222",1,0,0
+"Alenia G-222RM",1,0,0
+"Alenia G-222SAA",1,4,4
+"Alenia G-222TCM",6,16,2.67
+"AMI C-47TP (DC-3T)",1,11,11
+"Amiot AAC.1 (Junkers Ju-52)",7,59,8.43
+"Antonov",2,0,0
+"Antonov An-12",41,531,12.95
+"Antonov An-124-100",1,0,0
+"Antonov An-12A",2,13,6.5
+"Antonov An-12AP",1,5,5
+"Antonov An-12B",5,43,8.6
+"Antonov An-12BK",4,18,4.5
+"Antonov An-12BK-PPS",2,16,8
+"Antonov An-12BP",20,309,15.45
+"Antonov An-12RR",1,17,17
+"Antonov An-2",18,12,0.67
+"Antonov An-22",5,47,9.4
+"Antonov An-22A",4,55,13.75
+"Antonov An-24",5,21,4.2
+"Antonov An-24 ?",1,25,25
+"Antonov An-24B",2,60,30
+"Antonov An-24T",2,5,2.5
+"Antonov An-24TV",2,4,2
+"Antonov An-24V",1,5,5
+"Antonov An-26",70,786,11.23
+"Antonov An-26B",1,0,0
+"Antonov An-26B-100",1,0,0
+"Antonov An-26RT",4,15,3.75
+"Antonov An-26Sh",1,0,0
+"Antonov An-26SM",1,0,0
+"Antonov An-2M",4,0,0
+"Antonov An-2R",2,5,2.5
+"Antonov An-2T",17,12,0.71
+"Antonov An-2TP",1,0,0
+"Antonov An-2V",1,3,3
+"Antonov An-30B",4,7,1.75
+"Antonov An-32",25,317,12.68
+"Antonov An-32A",2,0,0
+"Antonov An-32B",12,180,15
+"Antonov An-32RE",1,0,0
+"Antonov An-74TK-200",1,6,6
+"Antonov An-8",2,24,12
+"Armstrong Whitworth AW-650 Argosy 2",1,0,0
+"Armstrong Whitworth AW-660 Argosy C",3,13,4.33
+"ATL-98 Carvair",1,0,0
+"ATR-72-500",1,0,0
+"Avia 14T",4,20,5
+"Avro 685 York C.1",46,60,1.3
+"Avro 691 Lancastrian C.2",2,4,2
+"Avro 691 Lancastrian C.4",1,31,31
+"Avro Shackleton AEW.2",1,10,10
+"Avro Shackleton MR.1",6,35,5.83
+"Avro Shackleton MR.1A",2,0,0
+"Avro Shackleton MR.2",11,57,5.18
+"Avro Shackleton MR.3",6,36,6
+"Avro Shackleton T.4",2,2,1
+"BAe-125 CC3 (HS-125-700)",1,0,0
+"BAe-748",5,101,20.2
+"BAe 3102 Jetstream 31",1,5,5
+"Basler BT-67 Turbo 67 (AC-47T)",1,0,0
+"Basler BT-67 Turbo 67 (DC-3T)",5,7,1.4
+"Beech 1900",1,0,0
+"Beech 1900C",1,5,5
+"Beech 1900C-1",1,18,18
+"Beech 1900D",1,5,5
+"Beech 200 Super King Air",4,11,2.75
+"Beech 200C Super King Air",2,13,6.5
+"Beech 200T Super King Air",1,0,0
+"Beech 300 King Air (MARSS)",1,3,3
+"Beech 300 Super King Air 350",1,6,6
+"Beech 300 Super King Air 350ER",1,0,0
+"Beech B200T Super King Air",1,1,1
+"Beech B300 Super King Air 350",1,0,0
+"Beech C-12A Huron (A200 Super King",1,5,5
+"Beech C-12C Huron (A200 Super King",1,3,3
+"Beech C-12F Huron  (A200CF Super Ki",1,2,2
+"Beech C-12F Huron (A200CT Super Kin",2,8,4
+"Beech MC-12W Liberty (King Air 350)",1,4,4
+"Beech RC-12K Huron (A200CT Super Ki",3,4,1.33
+"Beech RC-12N Huron (A200CT Super Ki",1,2,2
+"Beech T-1A Jayhawk",2,0,0
+"Beech UC-12B Huron (A200C Super Kin",1,1,1
+"Blackburn Beverley C.1",8,18,2.25
+"BN-2 Defender",1,5,5
+"BN-2 Islander",4,0,0
+"BN-2A-2 Islander",1,3,3
+"BN-2A-21 Defender",4,2,0.5
+"BN-2A-21 Islander",15,16,1.07
+"BN-2A-9 Islander",1,0,0
+"BN-2A Islander",3,9,3
+"BN-2B-21 Islander",1,0,0
+"BN-2T Islander",1,5,5
+"BN-2T Islander AL.1",1,0,0
+"BN-2T Turbine Islander",2,6,3
+"Boeing 707-368C",1,5,5
+"Boeing 707-372C",1,2,2
+"Boeing 727-222F",1,0,0
+"Boeing 737-247",1,0,0
+"Boeing 737-282",1,75,75
+"Boeing 737-3Z6",1,6,6
+"Boeing 747-131F",1,17,17
+"Boeing C-135A Stratolifter",1,84,84
+"Boeing C-135B Stratolifter",3,31,10.33
+"Boeing C-135F Stratotanker",1,6,6
+"Boeing C-97 Stratofreighter",1,0,0
+"Boeing C-97A Stratofreighter",4,32,8
+"Boeing C-97C-35-BO Stratofreighter",1,67,67
+"Boeing E-3A Sentry (707-300B)",1,24,24
+"Boeing E-3C Sentry (707-300)",1,0,0
+"Boeing E-6A Hermes",1,0,0
+"Boeing E-8C (707)",2,0,0
+"Boeing EC-135C",1,0,0
+"Boeing EC-135J",1,0,0
+"Boeing EC-135K",1,20,20
+"Boeing EC-135N",1,21,21
+"Boeing EC-135P",1,0,0
+"Boeing KC-135 Stratotanker",1,1,1
+"Boeing KC-135A Stratotanker",56,287,5.12
+"Boeing KC-135E Stratotanker",1,2,2
+"Boeing KC-135Q Stratotanker",2,5,2.5
+"Boeing KC-135R Stratotanker",4,4,1
+"Boeing KC-137E (707-324C)",1,0,0
+"Boeing KC-97 Stratofreighter",1,5,5
+"Boeing KC-97E Stratofreighter",1,6,6
+"Boeing KC-97F Stratofreighter",4,2,0.5
+"Boeing KC-97G Stratofreighter",15,86,5.73
+"Boeing NKC-135A",1,0,0
+"Boeing P-8A Poseidon (737-8FV)",1,0,0
+"Boeing RC-135E Rivet Amber",1,19,19
+"Boeing RC-135S Cobra Ball II",1,6,6
+"Boeing RC-135S Rivet Ball",1,0,0
+"Boeing RC-135T Rivet Dandy",1,3,3
+"Boeing RC-135V Rivet Joint",1,0,0
+"Boeing T-43A (737)",1,35,35
+"Boeing XC-97",1,5,5
+"Breguet 1150 Atlantic",6,64,10.67
+"Breguet 730",2,9,4.5
+"Breguet SP-13A Atlantic",3,3,1
+"Bristol 170 Freighter 21E",3,3,1
+"Bristol 170 Freighter 21P",5,20,4
+"Bristol 170 Freighter 31E",2,0,0
+"Bristol 170 Freighter 31M",10,35,3.5
+"Bristol 170 Freighter IA",4,10,2.5
+"Bristol 170 Superfreighter 32",1,0,0
+"Bristol 175 Britannia C.1",1,0,0
+"British Aerospace Nimrod MR.2",3,16,5.33
+"British Aerospace Nimrod MR.2P",1,7,7
+"British Aerospace Nimrod R.1P",1,0,0
+"Budd RB-1 Conestoga",1,1,1
+"C-115 Buffalo (DHC-5)",8,34,4.25
+"C-17A Globemaster III",3,4,1.33
+"C-7A Caribou",8,8,1
+"C-7B Caribou",16,60,3.75
+"C-9A Nightingale (DC-9-30)",1,3,3
+"Canadair C-54GM Argonaut",5,0,0
+"Canadair C-54GM North Star",1,0,0
+"Canadair CC-109 Cosmopolitan",1,0,0
+"Canadair CL-215",17,26,1.53
+"Canadair CL-415",2,4,2
+"Canadair CL-44D4-2",2,0,0
+"Canadair CP-107 Argus Mk.2",1,16,16
+"Canadair DC-4M1 North Star",2,0,0
+"CANT Z.506C",1,20,20
+"CASA 352 (Junkers Ju-52)",52,101,1.94
+"CASA C-207C (T.7) Azor",1,11,11
+"CASA C-212-A1 Aviocar 200",1,3,3
+"CASA C-212-A2 Aviocar 100",1,2,2
+"CASA C-212-A3 Aviocar 100",1,13,13
+"CASA C-212-A62 Aviocar 200",1,2,2
+"CASA C-212-AB10 Aviocar 300",1,14,14
+"CASA C-212-DE Aviocar 200",1,7,7
+"CASA C-212-M Aviocar 100",2,12,6
+"CASA C-212-M Aviocar 200",4,0,0
+"CASA C-212-M Aviocar 300",3,15,5
+"CASA C-212-MR Aviocar 200",1,3,3
+"CASA C-212-S1 Aviocar 100",1,5,5
+"CASA C-212 Aviocar 100",9,30,3.33
+"CASA C-212 Aviocar 200",14,186,13.29
+"CASA C-212 Aviocar 300",2,3,1.5
+"CASA C-212 Aviocar 300DF",1,21,21
+"CASA C-212 Aviocar 400",1,0,0
+"CASA C-212A-27 Aviocar 200",1,0,0
+"CASA C-295M",2,26,13
+"CASA CN-235M-100",2,0,0
+"CASA CN-235M-200",3,18,6
+"CASA CN-235M-300",1,0,0
+"CASA/Nurtanio NC-212 Aviocar",4,29,7.25
+"Catalina IVB (PBY-5A)",3,8,2.67
+"CC-108 Caribou",1,0,0
+"CC-115 Buffalo",1,9,9
+"Cessna 208 Caravan I",9,6,0.67
+"Cessna 208A Caravan I",1,0,0
+"Cessna 208B Grand Caravan",8,14,1.75
+"Cessna 560XLS+ Citation XLS+",1,7,7
+"Cessna 650 Citation III",1,3,3
+"Cessna AC-208B Combat Caravan",1,3,3
+"Cessna C-98 Caravan I (208A)",1,0,0
+"Cessna C-98A Grand Caravan (208B)",2,10,5
+"Cessna U-27A Caravan I",2,16,8
+"Cessna UC-35A (Cessna 560 Citation",1,0,0
+"Consolidated 28-2 Catalina",1,0,0
+"Consolidated 28-5MC Canso (PBY-5)",2,9,4.5
+"Consolidated 28-5ME Catalina",1,0,0
+"Consolidated 28-5MNE Catalina",2,0,0
+"Consolidated C-10 Catalina (PBY-5)",3,23,7.67
+"Consolidated C-109 Liberator Expres",48,27,0.56
+"Consolidated C-10A Catalina (PBY-5A",10,51,5.1
+"Consolidated C-12 Commodore (16-2)",1,8,8
+"Consolidated C-87 Liberator Express",97,185,1.91
+"Consolidated C-87A Liberator Expres",1,10,10
+"Consolidated Canso A",1,1,1
+"Consolidated Catalina",19,118,6.21
+"Consolidated Catalina GR.IIA",1,0,0
+"Consolidated Catalina I",4,14,3.5
+"Consolidated Catalina IB",1,8,8
+"Consolidated Catalina IB (PBY-5B)",3,22,7.33
+"Consolidated Catalina IIA (PBY-5A)",1,1,1
+"Consolidated Catalina III",1,0,0
+"Consolidated Catalina IIIA",1,9,9
+"Consolidated Catalina IVA",2,9,4.5
+"Consolidated Catalina IVB",2,12,6
+"Consolidated Liberator C.VII (C-87)",1,0,0
+"Consolidated OA-10 Catalina",1,7,7
+"Consolidated OA-10 Catalina (PBY-5)",1,5,5
+"Consolidated PA-10 Catalina (PBY-5)",1,4,4
+"Consolidated PBY-2 Catalina",19,15,0.79
+"Consolidated PBY-3 Catalina",3,5,1.67
+"Consolidated PBY-4 Catalina",6,1,0.17
+"Consolidated PBY-5 Catalina",176,377,2.14
+"Consolidated PBY-5A Canso (Tp47)",1,0,0
+"Consolidated PBY-5A Catalina",177,611,3.45
+"Consolidated PBY-6A Catalina",13,45,3.46
+"Consolidated PBY Catalina",1,3,3
+"Consolidated Vultee PBY-6A Catalina",2,0,0
+"Convair C-131D (CV-340)",1,0,0
+"Convair C-131E (CV-440)",2,1,0.5
+"Convair C-131F (CV-340)",2,18,9
+"Convair R4Y-1Z (CV-340)",1,0,0
+"Convair T-29A (CV-240)",2,3,1.5
+"Convair T-29C (CV-240)",1,9,9
+"Convair T-29D (CV-240)",2,20,10
+"Convair VC-131H (CV-580)",1,3,3
+"CSR-123 Otter (DHC-3)",1,0,0
+"CT-39A-1-NO Sabreliner",2,11,5.5
+"CT-39A Sabreliner",1,3,3
+"CT-39E Sabreliner",1,2,2
+"Curtiss BT-32 Condor II",2,0,0
+"Curtiss C-46",18,29,1.61
+"Curtiss C-46A",403,276,0.68
+"Curtiss C-46D",235,409,1.74
+"Curtiss C-46F",18,190,10.56
+"Curtiss R5C-1 (C-46A)",7,4,0.57
+"Curtiss T-32C Condor II",1,5,5
+"CV-2A Caribou",2,0,0
+"CV-2B Caribou",11,37,3.36
+"Dassault Falcon 10MER",1,0,0
+"Dassault Falcon 20C",1,5,5
+"Dassault Falcon 20E",2,8,4
+"Dassault Falcon 20F",3,0,0
+"Dassault Falcon 900B",1,7,7
+"DC-9-32",1,0,0
+"DC-9-32CF",1,0,0
+"de Havilland DH-106 Comet 2R",1,0,0
+"de Havilland DH-114 Heron 2C",1,0,0
+"de Havilland DH-114 Heron 2D",2,0,0
+"de Havilland DH-114 Sea Heron C.1",1,0,0
+"de Havilland DH.86 Express",8,7,0.88
+"de Havilland DH.86A Express",6,0,0
+"de Havilland DH.86B Express",3,0,0
+"de Havilland DH.91 Albatross",2,0,0
+"de Havilland DH.95 Flamingo",1,0,0
+"DHC-3 Otter",13,10,0.77
+"DHC-4A Caribou",26,61,2.35
+"DHC-5D Buffalo",20,220,11
+"DHC-6 Twin Otter",1,0,0
+"DHC-6 Twin Otter 100",7,35,5
+"DHC-6 Twin Otter 200",3,41,13.67
+"DHC-6 Twin Otter 300",19,106,5.58
+"DHC-7-102 (O-5A)",1,7,7
+"DHC-8-202",1,4,4
+"DHC-8-202Q",1,0,0
+"Dornier 228-201",1,2,2
+"Dornier 228-212",3,20,6.67
+"Dornier Do 128-2 Skyservant",1,0,0
+"Dornier Do 128-6 Turbo Skyservant",2,3,1.5
+"Dornier Do 128-6MPA Turbo Skyservan",1,0,0
+"Dornier Do 28D-1 Skyservant",1,0,0
+"Dornier Do 28D-2 Skyservant",4,5,1.25
+"Douglas  Dakota III (DC-3)",1,0,0
+"Douglas AC-47",3,0,0
+"Douglas AC-47/Basler 67",1,7,7
+"Douglas AC-47A",1,4,4
+"Douglas AC-47B (DC-3)",1,8,8
+"Douglas AC-47D Spooky",19,91,4.79
+"Douglas AC-47D Spooky (DC-3)",1,0,0
+"Douglas C-117D (DC-3)",2,0,0
+"Douglas C-118 (DC-6B)",1,16,16
+"Douglas C-118A (DC-6)",10,73,7.3
+"Douglas C-124A-DL Globemaster II",12,339,28.25
+"Douglas C-124A Globemaster II",7,67,9.57
+"Douglas C-124C Globemaster II",40,166,4.15
+"Douglas C-133A-30-DL Cargomaster",1,7,7
+"Douglas C-133A-35-DL Cargomaster",2,14,7
+"Douglas C-133A-5-DL Cargomaster",1,6,6
+"Douglas C-133A Cargomaster",3,14,4.67
+"Douglas C-133B-DL Cargomaster",3,14,4.67
+"Douglas C-32A (DC-2-120)",1,0,0
+"Douglas C-32A (DC-2)",1,0,0
+"Douglas C-33 (DC-2)",6,0,0
+"Douglas C-34 (DC-2)",1,0,0
+"Douglas C-39 (DC-2)",8,44,5.5
+"Douglas C-47",1,3,3
+"Douglas C-47 (DC-3)",429,1316,3.07
+"Douglas C-47 (VC-117B) (DC-3)",1,9,9
+"Douglas C-47 Dakota IV",1,0,0
+"Douglas C-47 Pe're (DC-3)",1,0,0
+"Douglas C-47A (DC-3)",1274,2542,2
+"Douglas C-47B (DC-3)",375,953,2.54
+"Douglas C-47C",1,6,6
+"Douglas C-47D",30,132,4.4
+"Douglas C-47D (DC-3)",84,175,2.08
+"Douglas C-47E",1,5,5
+"Douglas C-47H",1,1,1
+"Douglas C-47J (DC-3)",2,14,7
+"Douglas C-47M (DC-3)",1,16,16
+"Douglas C-48 (DC-3)",1,3,3
+"Douglas C-48B (DC-3)",3,0,0
+"Douglas C-49-DO (DC-3)",2,0,0
+"Douglas C-49D (DC-3)",3,0,0
+"Douglas C-49E (DC-3-DST)",2,0,0
+"Douglas C-49E (DC-3)",1,21,21
+"Douglas C-49F-DO",1,5,5
+"Douglas C-49F-DO (DC-3)",1,3,3
+"Douglas C-49G-DO",1,0,0
+"Douglas C-49G-DO (DC-3)",1,0,0
+"Douglas C-49G (DC-3)",1,0,0
+"Douglas C-49H",1,4,4
+"Douglas C-49H (DC-3-194B)",1,6,6
+"Douglas C-49H (DC-3-228)",1,20,20
+"Douglas C-49H (DC-3)",2,0,0
+"Douglas C-49J",6,14,2.33
+"Douglas C-49K (DC-3)",1,2,2
+"Douglas C-50A (DC-3-401)",1,0,0
+"Douglas C-50B (DC-3-397)",1,0,0
+"Douglas C-50C",1,0,0
+"Douglas C-51 (DC-3-270C)",1,0,0
+"Douglas C-52C (DC-3-402)",1,0,0
+"Douglas C-53-DO (DC-3)",11,0,0
+"Douglas C-53 Skytrooper (DC-3)",35,56,1.6
+"Douglas C-53B Skytrooper (DC-3)",1,0,0
+"Douglas C-53C Skytrooper (DC-3)",1,0,0
+"Douglas C-53D-DO (DC-3)",14,9,0.64
+"Douglas C-53D Skytrooper (DC-3)",25,77,3.08
+"Douglas C-54 (DC-4)",9,46,5.11
+"Douglas C-54A (DC-4)",24,134,5.58
+"Douglas C-54B (DC-4)",13,11,0.85
+"Douglas C-54D (DC-4)",34,287,8.44
+"Douglas C-54E (DC-4)",11,115,10.45
+"Douglas C-54G (DC-4)",12,186,15.5
+"Douglas C-74 Globemaster I",1,0,0
+"Douglas Dakota (DC-3)",1,0,0
+"Douglas Dakota C.3 (DC-3)",1,4,4
+"Douglas Dakota I (DC-3)",8,18,2.25
+"Douglas Dakota II (DC-3)",2,6,3
+"Douglas Dakota III  (DC-3)",2,0,0
+"Douglas Dakota III (DC-3)",258,621,2.41
+"Douglas Dakota IV (DC-3)",200,567,2.84
+"Douglas DC-2-112",4,5,1.25
+"Douglas DC-2-115E",1,0,0
+"Douglas DC-2-115F",1,0,0
+"Douglas DC-2-115G",1,0,0
+"Douglas DC-2-118B",1,0,0
+"Douglas DC-2-120",7,1,0.14
+"Douglas DC-2-171",2,0,0
+"Douglas DC-2-200",1,0,0
+"Douglas DC-2-211",1,0,0
+"Douglas DC-3",3,7,2.33
+"Douglas DC-3-227B",1,1,1
+"Douglas DC-3 (Nakajima L2D)",1,0,0
+"Douglas DC-3 (Showa L2D)",2,0,0
+"Douglas DC-3A",1,0,0
+"Douglas DC-3A-191",1,0,0
+"Douglas DC-3A-197",1,0,0
+"Douglas DC-3A-269C",1,0,0
+"Douglas DC-3A-414",1,0,0
+"Douglas DC-3C",3,5,1.67
+"Douglas DC-3D",1,0,0
+"Douglas DC-4-1009",3,18,6
+"Douglas DC-5-511",1,0,0
+"Douglas DC-6",3,47,15.67
+"Douglas DC-6A/B",1,0,0
+"Douglas DC-6A/C",1,0,0
+"Douglas DC-6B",3,134,44.67
+"Douglas EC-47A",1,0,0
+"Douglas EC-47D (DC-3)",1,3,3
+"Douglas EC-47N",1,0,0
+"Douglas EC-47P",6,8,1.33
+"Douglas EC-47Q",6,18,3
+"Douglas EC-47Q (DC-3)",1,2,2
+"Douglas HC-47A",2,0,0
+"Douglas HC-54D (DC-4)",1,7,7
+"Douglas JC-47A",1,0,0
+"Douglas LC-117D",1,0,0
+"Douglas LC-47A (DC-3)",1,0,0
+"Douglas LC-47H",4,0,0
+"Douglas LC-47J",2,6,3
+"Douglas MC-54M (DC-4)",1,14,14
+"Douglas R2D-1 (DC-2)",2,11,5.5
+"Douglas R4D-1 (DC-3)",21,82,3.9
+"Douglas R4D-3 (DC-3)",2,0,0
+"Douglas R4D-4 (DC-3)",1,0,0
+"Douglas R4D-5 (DC-3)",46,269,5.85
+"Douglas R4D-5S (DC-3)",2,0,0
+"Douglas R4D-5Z (DC-3)",1,0,0
+"Douglas R4D-6 (DC-3)",18,78,4.33
+"Douglas R4D-6L (DC-3)",1,0,0
+"Douglas R4D-7 (DC-3)",4,6,1.5
+"Douglas R4D-8 (Super DC-3)",7,11,1.57
+"Douglas R4D-8L (Super DC-3)",1,0,0
+"Douglas R4D (DC-3)",1,0,0
+"Douglas R5D-1 (DC-4)",2,7,3.5
+"Douglas R5D-2 (C-54B)",2,0,0
+"Douglas R5D-2 (DC-4)",5,60,12
+"Douglas R5D-3 (C-54D)",2,0,0
+"Douglas R5D-3 (DC-4)",10,33,3.3
+"Douglas R5D-4 (C-54E)",1,0,0
+"Douglas R5D-4 (DC-4)",1,0,0
+"Douglas R5D (DC-4)",1,1,1
+"Douglas R5D Skymaster (DC-4)",1,0,0
+"Douglas R6D-1 (DC-6)",7,190,27.14
+"Douglas RC-47D",1,8,8
+"Douglas RC-47P",2,7,3.5
+"Douglas SC-47",1,13,13
+"Douglas SC-47A",5,18,3.6
+"Douglas SC-47A (DC-3)",1,3,3
+"Douglas SC-47D",3,8,2.67
+"Douglas SC-47D (DC-3)",3,7,2.33
+"Douglas SC-54D (DC-4)",1,0,0
+"Douglas TC-47A (DC-3)",1,0,0
+"Douglas TC-47B (DC-3)",2,13,6.5
+"Douglas TC-47D (DC-3)",1,0,0
+"Douglas TP-79 (C-47-DL)",2,8,4
+"Douglas VC-117A",1,0,0
+"Douglas VC-47A (DC-3)",15,53,3.53
+"Douglas VC-47B (DC-3)",2,0,0
+"Douglas VC-47D (DC-3)",18,71,3.94
+"Douglas VC-47J (DC-3)",1,25,25
+"Douglas VC-54G (DC-4)",1,0,0
+"Douglas XC-32 (DC-2)",1,0,0
+"Douglas XC-47C-DL (DC-3)",1,0,0
+"Embraer C-95 Bandeirante (EMB-110)",6,22,3.67
+"Embraer C-95A Bandeirante (EMB-110K",2,7,3.5
+"Embraer C-95B Bandeirante (EMB-110)",5,14,2.8
+"Embraer C-95BM Bandeirante (EMB-110",2,0,0
+"Embraer C-95C Bandeirante (EMB-110P",1,16,16
+"Embraer EMB-110P1K Bandeirante",2,3,1.5
+"Embraer EMB-120ER Brasilia",1,17,17
+"Embraer P-95 Bandeirulha (EMB-111A)",3,7,2.33
+"Embraer P-95B Bandeirulha (EMB-111)",2,9,4.5
+"Embraer R-95 Bandeirante (EMB-110B)",1,5,5
+"Embraer VC-97 Brasilia (EMB-120RT)",1,5,5
+"Embraer XC-95B Bandeirante (EMB-110",1,8,8
+"Fairchild AC-119G Shadow",1,6,6
+"Fairchild AC-119K Stinger",4,5,1.25
+"Fairchild C-119 Flying Boxcar",12,91,7.58
+"Fairchild C-119B-10-FA Flying Boxca",1,3,3
+"Fairchild C-119B Flying Boxcar",10,9,0.9
+"Fairchild C-119C Flying Boxcar",42,168,4
+"Fairchild C-119F-FA Flying Boxcar",1,18,18
+"Fairchild C-119F Flying Boxcar",1,0,0
+"Fairchild C-119G Flying Boxcar",43,293,6.81
+"Fairchild C-123 Provider",3,13,4.33
+"Fairchild C-123B Provider",30,192,6.4
+"Fairchild C-123J Provider",2,106,53
+"Fairchild C-123K Provider",30,300,10
+"Fairchild C-82A Packet",35,66,1.89
+"Fairchild CC-119",1,0,0
+"Fairchild CC-119 Flying Boxcar",1,0,0
+"Fairchild FH-227B",1,43,43
+"Fairchild FH-227D",1,29,29
+"Fairchild R4Q-2 Packet (C-119F)",1,44,44
+"Fairchild RC-119L Flying Boxcar",1,0,0
+"Fairchild UC-123B-6-FA Provider",1,5,5
+"Fairchild UC-123B Provider",2,0,0
+"Fairchild UC-123K Provider",3,13,4.33
+"Fiat G.12CA",1,4,4
+"Fiat G.18V",1,0,0
+"Fiat G.212CP",1,0,0
+"FMA IA 50 Guaraní II",4,26,6.5
+"Fokker F-27 Friendship 200",4,25,6.25
+"Fokker F-27 Friendship 200MAR",3,0,0
+"Fokker F-27 Friendship 200MP",1,0,0
+"Fokker F-27 Friendship 400M",12,143,11.92
+"Fokker F-27 Friendship 600",1,5,5
+"Fokker F.VIII",1,0,0
+"Fokker F.VIIIa",1,0,0
+"Fokker F.XXII",1,20,20
+"Ford 4-AT-E Tri-Motor",1,0,0
+"Ford 5-AT-B Tri-Motor",1,1,1
+"Ford 5-AT-C Tri-Motor",4,17,4.25
+"Ford 5-AT-D Tri-Motor",1,0,0
+"GAF Nomad N.22",2,4,2
+"GAF Nomad N.22B",6,6,1
+"GAF Nomad N.22C",1,11,11
+"GAF Nomad N.22SL",1,1,1
+"GAF Nomad N.24",1,2,2
+"GAF Nomad N.24A",3,6,2
+"Grumman C-2A Greyhound",10,62,6.2
+"Grumman HU-16B Albatross",7,26,3.71
+"Grumman SA-16A Albatross",9,19,2.11
+"Grumman SA-16B Albatross",3,5,1.67
+"Grumman SHU-16B Albatross",1,6,6
+"Gulfstream III",1,9,9
+"HAL-748",4,78,19.5
+"Handley Page Hastings",1,0,0
+"Handley Page Hastings C.1",22,32,1.45
+"Handley Page Hastings C.1A",1,41,41
+"Handley Page Hastings C.2",10,41,4.1
+"Handley Page HP-137 Jetstream T.2",1,2,2
+"Handley Page HP.42E",3,0,0
+"Handley Page HPR-7 Herald 401",1,0,0
+"Handley Page Jetstream T.1",1,0,0
+"Handley Page Marathon T.2",9,5,0.56
+"Harbin Yunshuji Y-12 II",7,39,5.57
+"Hawker Siddeley C-91 (HS-748-281 Sr",1,0,0
+"Hawker Siddeley HS-121 Trident 1E",1,9,9
+"Hawker Siddeley HS-125-400B",3,11,3.67
+"Hawker Siddeley HS-125-600B",1,0,0
+"Hawker Siddeley HS-748",4,7,1.75
+"Hawker Siddeley VC-93 (HS-125-3B/RC",1,0,0
+"Hawker Siddeley VU-93 (HS-125-403B)",1,9,9
+"Howard Cargo Harpoon",1,0,0
+"IAI Arava 201",18,100,5.56
+"IAI Arava 202",1,2,2
+"Ilyushin Il-12",1,21,21
+"Ilyushin Il-14",6,54,9
+"Ilyushin Il-14P",1,0,0
+"Ilyushin Il-14T",1,0,0
+"Ilyushin Il-18A",1,10,10
+"Ilyushin Il-18D",1,84,84
+"Ilyushin Il-18V",2,33,16.5
+"Ilyushin Il-38",2,6,3
+"Ilyushin Il-76",3,7,2.33
+"Ilyushin Il-76M",8,157,19.62
+"Ilyushin Il-76MD",13,173,13.31
+"Ilyushin Il-76MD Adnan-1",1,0,0
+"Ilyushin Il-76MD Simorgh",1,7,7
+"Ilyushin Il-76TD",1,0,0
+"IPTN/CASA CN-235M-10",1,3,3
+"IPTN/CASA CN-235M-100",3,40,13.33
+"IPTN/CASA CN-235M-VIP",1,0,0
+"IPTN/CASA CN-235MP-100M",1,4,4
+"Junkers G.31go",1,0,0
+"Junkers G.38gi/fi",1,0,0
+"Junkers Ju-52",5,80,16
+"Junkers Ju-52/3m",88,203,2.31
+"Junkers Ju-52/3mg14e",1,0,0
+"Junkers Ju-52/3mg3e",2,0,0
+"Junkers Ju-52/3mg4e",11,40,3.64
+"Junkers Ju-52/3mg5e",1,6,6
+"Junkers Ju-52/3mg6e",1,1,1
+"Junkers Ju-52/3mg7e",1,0,0
+"Junkers Ju-52/3mg8e",1,0,0
+"Junkers Ju-52/3mge",7,2,0.29
+"Junkers Ju-52/3msai",2,15,7.5
+"Junkers JuG-1W (G.24)",1,0,0
+"Junkers R-42 (G.24)",1,3,3
+"Kaiser-Fraser C-119G Flying Boxcar",1,9,9
+"Kaiser-Frazer AC-119G Shadow",1,6,6
+"Kaiser-Frazer C-119F Flying Boxcar",3,0,0
+"Kaiser-Frazer C-119G Flying Boxcar",5,38,7.6
+"Kaiser-Frazer C-119J Flying Boxcar",2,4,2
+"Kaiser-Frazier C-119F Flying Boxcar",1,7,7
+"Kawasaki P-3C-II.5 Orion",1,0,0
+"KC-10A Extender",1,1,1
+"Latécoère 631",2,12,6
+"Learjet 24D",1,0,0
+"Learjet 35A",3,18,6
+"Learjet C-21A (Learjet 35A)",5,12,2.4
+"Learjet U-36A",2,9,4.5
+"Let L-410UVP",3,15,5
+"Let L-410UVP-E3",4,2,0.5
+"Lioré-et-Olivier H.246",1,0,0
+"Lisunov Li-2",10,60,6
+"Lisunov Li-2P",2,0,0
+"Lisunov Li-2T",2,24,12
+"Lisunov PS-84",2,29,14.5
+"Lockheed 14-H2 Super Electra",1,0,0
+"Lockheed 14-N2 Super Electra",1,0,0
+"Lockheed 14-N3 Super Electra",1,0,0
+"Lockheed 14-WF62 Super Electra",1,0,0
+"Lockheed 18 Lodestar",9,12,1.33
+"Lockheed 18 Lodestar I",1,0,0
+"Lockheed 414 Hudson III",1,0,0
+"Lockheed 414 Hudson VI",2,33,16.5
+"Lockheed AC-130A Spectre",5,52,10.4
+"Lockheed AC-130E Spectre",1,0,0
+"Lockheed AC-130H Spectre",2,22,11
+"Lockheed AC-130J Ghostrider",1,0,0
+"Lockheed B-34 Lexington",1,0,0
+"Lockheed C-121C Super Constellation",1,12,12
+"Lockheed C-121G Super Constellation",3,8,2.67
+"Lockheed C-121J Super Constellation",3,13,4.33
+"Lockheed C-130 Hercules",9,215,23.89
+"Lockheed C-130A-II Hercules",1,17,17
+"Lockheed C-130A Hercules",42,156,3.71
+"Lockheed C-130B Hercules",43,328,7.63
+"Lockheed C-130D Hercules",2,53,26.5
+"Lockheed C-130E-I Hercules",3,23,7.67
+"Lockheed C-130E Hercules",69,459,6.65
+"Lockheed C-130F Hercules",1,0,0
+"Lockheed C-130H-30 Hercules",3,76,25.33
+"Lockheed C-130H-MP Hercules",1,11,11
+"Lockheed C-130H Hercules",66,1138,17.24
+"Lockheed C-130H2 Hercules",1,0,0
+"Lockheed C-130J-30 Super Hercules",4,10,2.5
+"Lockheed C-130J Super Hercules",1,0,0
+"Lockheed C-130M Hercules",1,0,0
+"Lockheed C-140A-LM JetStar",1,5,5
+"Lockheed C-141A-20-LM Starlifter",1,16,16
+"Lockheed C-141A-LM Starlifter",6,60,10
+"Lockheed C-141A Starlifter",1,24,24
+"Lockheed C-141B Starlifter",12,61,5.08
+"Lockheed C-57 Lodestar",1,0,0
+"Lockheed C-57B-LO Lodestar",1,0,0
+"Lockheed C-5A Galaxy",5,168,33.6
+"Lockheed C-5B Galaxy",2,0,0
+"Lockheed C-60-LO Lodestar",1,0,0
+"Lockheed C-60A-1-LO Lodestar",11,36,3.27
+"Lockheed C-60A-LO Lodestar",2,0,0
+"Lockheed C-60A Lodestar",34,54,1.59
+"Lockheed C-69 Constellation",1,0,0
+"Lockheed CC-130B Hercules",1,0,0
+"Lockheed CC-130E Hercules",1,6,6
+"Lockheed CP-140 Aurora",1,0,0
+"Lockheed EC-121H Super Constellatio",3,50,16.67
+"Lockheed EC-121K Super Constellatio",5,23,4.6
+"Lockheed EC-121M Super Constellatio",4,57,14.25
+"Lockheed EC-121R Super Constellatio",3,18,6
+"Lockheed EC-121T Super Constellatio",1,0,0
+"Lockheed EC-130E Hercules",3,5,1.67
+"Lockheed EC-130G Hercules",1,0,0
+"Lockheed EC-130Q Hercules",1,16,16
+"Lockheed EP-3E Orion",1,0,0
+"Lockheed EP-3J Orion",1,0,0
+"Lockheed HC-130H Hercules",1,13,13
+"Lockheed HC-130P Combat King",4,21,5.25
+"Lockheed Hercules C.1 (C-130K)",6,73,12.17
+"Lockheed Hercules C.1P (C-130K)",2,0,0
+"Lockheed Hercules C.3A (C-130K)",1,0,0
+"Lockheed Hercules C.4 (C-130J-30)",1,0,0
+"Lockheed Hercules C.3P (C-130K)",1,9,9
+"Lockheed KC-130H Hercules",1,8,8
+"Lockheed KC-130J Hercules",1,5,5
+"Lockheed L-100-20 Hercules",4,19,4.75
+"Lockheed L-100-30 Hercules",2,0,0
+"Lockheed L-100 Hercules",1,22,22
+"Lockheed L-1049G Super Constellatio",1,0,0
+"Lockheed L-1329-25 JetStar II",1,12,12
+"Lockheed L-1329 JetStar I",1,0,0
+"Lockheed L-188PF Electra",1,0,0
+"Lockheed LC-130F Hercules",1,0,0
+"Lockheed LC-130R Hercules",2,2,1
+"Lockheed Lodestar IA",1,0,0
+"Lockheed Lodestar II",1,11,11
+"Lockheed Lodestar II (C-60)",1,0,0
+"Lockheed MC-130EY Hercules",1,23,23
+"Lockheed MC-130H Combat Talon II",4,22,5.5
+"Lockheed MC-130P Combat Shadow",1,0,0
+"Lockheed Neptune MR.1",6,18,3
+"Lockheed OP-2E Neptune",3,19,6.33
+"Lockheed OP-3C Orion",1,0,0
+"Lockheed P-15 Neptune (P2V-5)",4,15,3.75
+"Lockheed P-2E Neptune",3,19,6.33
+"Lockheed P-2H Neptune",22,25,1.14
+"Lockheed P-3A Orion",18,127,7.06
+"Lockheed P-3B Orion",13,82,6.31
+"Lockheed P-3C Orion",17,59,3.47
+"Lockheed P-3F Orion",1,0,0
+"Lockheed P2V-2 Neptune",16,43,2.69
+"Lockheed P2V-2N Neptune",1,4,4
+"Lockheed P2V-3 Neptune",8,9,1.12
+"Lockheed P2V-3W Neptune",6,32,5.33
+"Lockheed P2V-4 Neptune",4,10,2.5
+"Lockheed P2V-5 Neptune",22,127,5.77
+"Lockheed P2V-5F Neptune",1,6,6
+"Lockheed P2V-6 Neptune",4,30,7.5
+"Lockheed P2V-6M Neptune",1,10,10
+"Lockheed P2V-7 Neptune",18,77,4.28
+"Lockheed P2V-7LP Neptune",2,5,2.5
+"Lockheed P2V-7S Neptune",1,8,8
+"Lockheed P2V Neptune",9,34,3.78
+"Lockheed R5O-3 (Lodestar)",1,0,0
+"Lockheed R5O-5 (Lodestar)",1,7,7
+"Lockheed R5O-6 Lodestar",1,0,0
+"Lockheed R7V-1 Super Constellation",4,62,15.5
+"Lockheed R7V-2 Super Constellation",1,0,0
+"Lockheed RB-69A Neptune",5,69,13.8
+"Lockheed RC-121C Super Constellatio",1,0,0
+"Lockheed RC-121D Constellation",1,0,0
+"Lockheed RC-121D Super Constellatio",1,0,0
+"Lockheed RC-130E Hercules",1,21,21
+"Lockheed SP-2 Neptune",1,9,9
+"Lockheed SP-2E Neptune",3,23,7.67
+"Lockheed SP-2H Neptune",2,2,1
+"Lockheed TC-121C Super Constellatio",1,6,6
+"Lockheed VC-60A Lodestar",1,0,0
+"Lockheed WC-121N Super Constellatio",1,0,0
+"Lockheed WC-130H Hercules",1,6,6
+"Lockheed WV-2 Super Constellation",10,58,5.8
+"Lockheed WV-3 Super Constellation",1,0,0
+"Lockheed XP2V-1 Neptune",1,0,0
+"Lockheed YMC-130H Hercules",1,0,0
+"Lockheed YP2V-7 Neptune",1,0,0
+"Martin JRM-1 Mars",1,0,0
+"Martin JRM-3 Mars",1,0,0
+"Martin P5A Marlin",1,13,13
+"Martin P5B Marlin",1,10,10
+"Martin P5M-1 Marlin",6,45,7.5
+"Martin P5M-2 Marlin",1,4,4
+"Martin PBM-3S Mariner",1,10,10
+"Martin PBM-5 Mariner",7,48,6.86
+"Martin PBM-5A Mariner",6,32,5.33
+"Martin PBM-5G Mariner",1,1,1
+"MBB HFB-320ECM Hansa Jet",1,5,5
+"Morane Saulnier (FMA) MS.760 Paris",10,18,1.8
+"Morane Saulnier (FMA) MS.760A Paris",4,7,1.75
+"Morane Saulnier C-41 (MS.760 Paris)",2,3,1.5
+"Morane Saulnier MS.760 Paris I",12,10,0.83
+"Morane Saulnier MS.760A Paris IA",2,4,2
+"Morane Saulnier MS.760B Paris II",1,4,4
+"NAMC YS-11M-A-624",1,0,0
+"Nord 2501 Noratlas",28,232,8.29
+"Nord 2501D Noratlas",23,87,3.78
+"Nord 2502B Noratlas",1,0,0
+"Nord 2502F Noratlas",2,11,5.5
+"Nord 262A-29",1,0,0
+"Nord 262A-34",1,21,21
+"Nord 262C-62",1,0,0
+"Nord 262C-66",1,28,28
+"Nord 262D-51 Frégate",1,0,0
+"North-American Rockwell T-39N Sabre",1,4,4
+"OA-10A Canso A (PBY-5A)",5,33,6.6
+"PB2B-1 Canso A (PBY-5A)",3,4,1.33
+"PB2B-1 Catalina",10,25,2.5
+"PB2B-1 Catalina IVB",1,13,13
+"PB2B-2 Catalina",5,7,1.4
+"PBV-1A Canso (PBY-5A)",1,3,3
+"PBV-1A Canso A (PBY-5A)",23,68,2.96
+"Piaggio PD.808TP",1,3,3
+"Potez-CAMS 161",1,0,0
+"PZL-Mielec C-145A (M28-05) Skytruck",1,0,0
+"PZL-Mielec M28-05 Skytruck",1,3,3
+"PZL-Mielec M28 Skytruck",2,4,2
+"PZL-Mielec M28TD Bryza 2RF",1,4,4
+"Rockwell CT-39E Sabreliner",2,0,0
+"Rockwell CT-39G Sabreliner",1,3,3
+"Rockwell Sabreliner 60",1,0,0
+"Rockwell Sabreliner 75A",2,0,0
+"Rockwell T-39N Sabreliner",2,8,4
+"Saab 2000 AEW&C",1,0,0
+"Sabca Savoia-Marchetti S.73P",1,0,0
+"Sabreliner 40",1,11,11
+"Savoia-Marchetti SM-75",2,23,11.5
+"Savoia-Marchetti SM-75RT",1,0,0
+"Scottish Aviation Twin Pioneer CC.1",10,6,0.6
+"Scottish Aviation Twin Pioneer CC.2",5,8,1.6
+"SE-210 Caravelle III",1,0,0
+"Shaanxi KJ-200 (Y-8)",1,40,40
+"Shaanxi Y-8F-200W",1,122,122
+"Shaanxi Y-8GX-3",1,12,12
+"Shaanxi Yunshuji Y-8",2,8,4
+"Shaanxi Yunshuji Y-8B",1,5,5
+"Shaanxi Yunshuji Y-8D",2,24,12
+"Shin Meiwa PS-1",6,37,6.17
+"Shin Meiwa US-1A",1,10,10
+"ShinMaywa US-2",1,0,0
+"Short S.23 Empire Flying Boat Mk I",1,6,6
+"Short S.25 Sunderland",1,12,12
+"Short S.25 Sunderland GR.5",2,16,8
+"Short Sunderland",14,108,7.71
+"Short Sunderland GR.3",6,5,0.83
+"Short Sunderland GR.5",33,72,2.18
+"Short Sunderland I",29,88,3.03
+"Short Sunderland II",3,27,9
+"Short Sunderland III",31,259,8.35
+"Short Sunderland MR.5",12,15,1.25
+"Short Sunderland V",3,4,1.33
+"Shorts 330-100",1,0,0
+"Shorts 330UTT",1,0,0
+"Shorts 360-300",1,30,30
+"Shorts JC-23A Sherpa (330)",1,3,3
+"Shorts SC.7 Skyvan 3-100",3,29,9.67
+"Shorts SC.7 Skyvan 3M-400",4,0,0
+"Shorts Sunderland IIIa",1,0,0
+"Sikorsky S-43",1,9,9
+"Sikorsky Y1OA-8 (S-43)",1,0,0
+"SNCASE SE.161 Languedoc",1,11,11
+"SNCASE SE.200",2,0,0
+"Swearingen SA226-AT Merlin IV",2,8,4
+"Swearingen SA226-AT Merlin IVA",1,5,5
+"Swearingen SA227-BC Metro III",1,0,0
+"T-39A-1-NA Sabreliner",5,9,1.8
+"T-39A-1-NO Sabreliner",2,1,0.5
+"T-39A Sabreliner",3,9,3
+"T-39D Sabreliner",1,5,5
+"T-39N Sabreliner",1,3,3
+"Transall C-160D",5,59,11.8
+"Transall C-160F",2,6,3
+"Transall C-160NG",3,7,2.33
+"Transall C-160R",2,0,0
+"Tupolev Tu-104A",1,50,50
+"Tupolev Tu-124K",1,5,5
+"Tupolev Tu-124Sh",1,0,0
+"Tupolev Tu-134",2,0,0
+"Tupolev Tu-134AK",3,0,0
+"Tupolev Tu-134Sh2",1,7,7
+"Tupolev Tu-154B-2",2,92,46
+"Tupolev Tu-154M",2,120,60
+"U-1A Otter (DHC-3)",15,54,3.6
+"U-1B Otter (DHC-3)",1,0,0
+"UC-1 Otter (DHC-3)",6,2,0.33
+"unknown",2,69,34.5
+"VEB 14P",1,0,0
+"Vickers 610 Viking 1B",3,7,2.33
+"Vickers 615 Viking 1B",5,0,0
+"Vickers 620 Viking 1",1,5,5
+"Vickers 668 Varsity T.1",1,2,2
+"Vickers 806 Viscount",1,0,0
+"Vickers C-90 Viscount (742D)",1,0,0
+"Vickers Valetta C.1",67,134,2
+"Vickers Valetta C.2",2,1,0.5
+"Vickers Valetta T.3",5,29,5.8
+"Vickers Valetta T.4",1,0,0
+"Vickers Varisty T.1",2,0,0
+"Vickers Varsity T.1",26,33,1.27
+"Vickers VC10 C.1K",1,0,0
+"Vickers Viking C.2",1,0,0
+"Xian Yunshuji Y-7",1,2,2
+"Xian Yunshuji Y-7H",1,8,8
+"Xian Yunshuji Y-7H-500",1,39,39

@@ -1,10 +1,8 @@
 library("leaflet")
 library('ggplot2')
 library(htmltools)
-
+options(warn = -1)
 mapping.data <- read.csv("data/highest.csv", stringsAsFactors = FALSE)
-
-colnames(mapping.data)
 
 leaflet(mapping.data) %>%
   addTiles() %>%

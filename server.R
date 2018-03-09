@@ -1,14 +1,15 @@
 # Server for Plane Crash App
-
+Sys.setlocale('LC_ALL','C')
 library("rworldmap")
 library('shiny')
 source("data/read_data.R")
 library(dplyr)
-
+source("MAPSTART.R")
+options(warn = -1)
 server <- function(input, output) {
 
   output$pi.chart <- renderPlotly ({
-
+     options(warn = -1)
      if(input$type == "military") {
       data.in.use <- military_pi_data
     } else if (input$type == "private") {
@@ -19,12 +20,11 @@ server <- function(input, output) {
       data.in.use <- data_updated
     }
 
-
+    options(warn = -1)
     to.display <- data.in.use %>%
       filter(year >= input$year[1] & year <= input$year[2]) %>%
       filter(total_fatality >= input$fatalities[1] & total_fatality <= input$fatalities[2])
-
-
+    
 
     colors <- c('rgb(211,94,96)', 'rgb(128,133,133)',
                 'rgb(144,103,167)', 'rgb(171,104,87)',
@@ -60,12 +60,12 @@ server <- function(input, output) {
                yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE) )
       
     } 
-
+    options(warn = -1)
     return(p)
   })
 
   output$bar1.chart <- renderPlotly({
-    
+    options(warn = -1)
     if(input$type == "military") {
       data.in.use <- military_pi_data
     } else if (input$type == "private") {
@@ -76,12 +76,13 @@ server <- function(input, output) {
       data.in.use <- data_updated
     }
     
-    
+    options(warn = -1)
     to.display <- data.in.use %>%
       filter(year >= input$year[1] & year <= input$year[2]) %>%
       filter(total_fatality >= input$fatalities[1] & total_fatality <= input$fatalities[2]) %>%
       group_by(type)
     
+      
     if(input$type == "data"){
       to.display <- summarize(to.display, total = sum(occurence),
                               fat = sum(as.numeric(total_fatality), na.rm = T),
@@ -100,12 +101,12 @@ server <- function(input, output) {
       layout(autosize = F, width = 700, height = 15000,
              margin = list(l = 300),
              title = "Total occurence of accidents by aircraft model")
-    
+    options(warn = -1)
     return(p1)
   })
   
   output$bar2.chart <- renderPlotly({
-    
+    options(warn = -1)
     if(input$type == "military") {
       data.in.use <- military_pi_data
     } else if (input$type == "private") {
@@ -116,10 +117,12 @@ server <- function(input, output) {
       data.in.use <- data_updated
     }
     
+    options(warn = -1)
     to.display <- data.in.use %>%
       filter(year >= input$year[1] & year <= input$year[2]) %>%
       filter(total_fatality >= input$fatalities[1] & total_fatality <= input$fatalities[2]) %>%
       group_by(type)
+    
     
     if(input$type == "data"){
       to.display <- summarize(to.display, total = sum(occurence),
@@ -137,7 +140,7 @@ server <- function(input, output) {
       layout(autosize = F, width = 700, height = 5000,
              margin = list(l = 300),
              title = "Average fatality per accident by aircraft model")
-    
+    options(warn = -1)
     return(p2)
   })
   

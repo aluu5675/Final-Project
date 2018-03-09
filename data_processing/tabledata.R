@@ -1,6 +1,6 @@
 library("dplyr")
 library("rvest")
-
+options(warn = -1)
 
 # set-up of initial values
 startyear <- 1920
@@ -50,5 +50,5 @@ for (year in startyear:endyear) {
   }
   
 }
-
+options(warn = -1)
 write.csv(dat, file = "dat.csv", row.names = FALSE)

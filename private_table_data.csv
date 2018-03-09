@@ -1,0 +1,123 @@
+"type","total_occurence","total_fatality","average_fatality"
+"Antonov An-2",6,3,0.5
+"Antonov An-28",1,0,0
+"Antonov An-2P",2,0,0
+"Antonov An-2R",10,2,0.2
+"Antonov An-2SX",1,3,3
+"Antonov An-2T",5,2,0.4
+"Antonov An-2V",1,2,2
+"Avro 689 Tudor 5",1,0,0
+"BAe 3212 Jetstream 32",1,1,1
+"Beech 100 King Air",3,6,2
+"Beech 200 Super King Air",9,9,1
+"Beech 300 Super King Air",2,0,0
+"Beech A100 King Air",1,2,2
+"Beech B100 King Air",3,0,0
+"Beech B200 Super King Air",3,4,1.33
+"BN-2A-21 Islander",1,0,0
+"BN-2A-26 Islander",1,9,9
+"BN-2A-8 Islander",2,13,6.5
+"BN-2A Islander",2,0,0
+"BN-2B-21 Islander",1,0,0
+"BN-2B-27 Islander",1,0,0
+"Boeing 727-21",1,0,0
+"Bushmaster 2000",1,0,0
+"Canadair DC-4M2 North Star",1,0,0
+"Cessna 208 Caravan I",4,3,0.75
+"Cessna 208B Grand Caravan",1,0,0
+"Cessna 208B Supervan 900",1,0,0
+"Cessna 500 Citation I",3,8,2.67
+"Cessna 501 Citation I/SP",4,6,1.5
+"Cessna 525 Citation M2",1,0,0
+"Cessna 525 CitationJet",2,2,1
+"Cessna 525 CitationJet CJ1",1,2,2
+"Cessna 525 CitationJet",1,1,1
+"Cessna 525A CitationJet CJ2",1,4,4
+"Cessna 525A CitationJet CJ2+",1,0,0
+"Cessna 550 Citation II",2,0,0
+"Cessna 650 Citation III",1,3,3
+"Cessna F406 Caravan II",1,0,0
+"Consolidated 28-5AC Catalina",1,0,0
+"Consolidated PBY-5A Catalina",2,2,1
+"Consolidated PBY-6A Catalina",1,1,1
+"Convair CV-240-0",2,3,1.5
+"Convair CV-240-23",1,0,0
+"Convair CV-440",2,0,0
+"Convair CV-580",1,0,0
+"Convair VT-29A (CV-240)",1,1,1
+"Curtiss C-46A",10,17,1.7
+"Curtiss C-46D",1,0,0
+"Curtiss T-32C Condor II",1,0,0
+"de Havilland DH-114 Heron",1,0,0
+"de Havilland DH.86B Express",2,0,0
+"DHC-3 Otter",2,1,0.5
+"DHC-4A Caribou",1,0,0
+"DHC-6 Twin Otter 300",1,0,0
+"Dornier Do 28D-1 Skyservant",1,1,1
+"Dornier Do 28D-2 Skyservant",3,0,0
+"Douglas C-118A (DC-6)",1,10,10
+"Douglas C-47 (DC-3)",5,0,0
+"Douglas C-47A (DC-3)",6,6,1
+"Douglas C-47B (DC-3)",2,0,0
+"Douglas C-53-DO (DC-3)",1,0,0
+"Douglas C-54D (DC-4)",1,0,0
+"Douglas DC-2-112",1,0,0
+"Douglas DC-2-118B",1,0,0
+"Douglas DC-3",1,0,0
+"Douglas DC-3-201A",1,0,0
+"Douglas DC-3-270B",1,0,0
+"Douglas DC-3A",1,0,0
+"Douglas DC-3A-408",1,0,0
+"Douglas DC-3B-202A",1,0,0
+"Douglas DC-3C",1,0,0
+"Douglas DC-6",2,7,3.5
+"Douglas DC-6B",2,0,0
+"Douglas DC-7C",1,0,0
+"Douglas DC-7CF",2,0,0
+"Douglas R4D-5 (DC-3)",1,0,0
+"Douglas TC-47K (DC-3)",1,0,0
+"Eclipse 500",1,0,0
+"Embraer EMB-550 Legacy 500",1,0,0
+"Embraer Phenom 100",1,0,0
+"Fairchild C-82A Packet",1,0,0
+"Ford 4-AT-.  Tri-Motor",1,1,1
+"Ford 4-AT-A Tri-Motor",1,0,0
+"Ford 4-AT-B Tri-Motor",10,11,1.1
+"Ford 4-AT-D Tri-Motor",1,0,0
+"Ford 5-AT-B Tri-Motor",1,0,0
+"Ford 5-AT-C Tri-Motor",3,0,0
+"Grumman American G-1159 Gulfstream",1,2,2
+"Grumman G-159 Gulfstream I",3,2,0.67
+"Grumman G-73 Mallard",3,3,1
+"Grumman HU-16C Albatross",2,3,1.5
+"Gulfstream III",1,0,0
+"Hawker Siddeley HS-125-3A",1,0,0
+"IAI 1124 Westwind I",1,0,0
+"Kaiser-Frazer C-119L Flying Boxcar",1,0,0
+"Learjet 23",1,1,1
+"Learjet 24B",1,4,4
+"Learjet 25D",1,0,0
+"Learjet 25XR",1,2,2
+"Learjet 35",1,0,0
+"Learjet 35A",1,0,0
+"Learjet 60",1,2,2
+"Lockheed 14-H2 Super Electra",1,2,2
+"Lockheed 18 Learstar",1,0,0
+"Lockheed 18 Learstar I",2,3,1.5
+"Lockheed 18 Lodestar",16,60,3.75
+"Lockheed C-60A-1-LO Lodestar",1,0,0
+"Lockheed L-1329-23E JetStar 8",1,0,0
+"Lockheed Learstar 1",1,7,7
+"Lockheed PV-2D Harpoon",1,8,8
+"Martin 4-0-4",1,0,0
+"Martin VC-3A (4-0-4)",1,0,0
+"Morane Saulnier MS.760B Paris II",3,7,2.33
+"Northrop YC-125A Raider",1,0,0
+"Rockwell 1121B Jet Commander",1,4,4
+"Rockwell Sabreliner 60",2,0,0
+"Rockwell Sabreliner 80",1,0,0
+"Shorts S.26 G Class",1,0,0
+"T-39A Sabreliner",1,0,0
+"Vickers 610 Viking 1B",1,0,0
+"Vickers 626 Viking C Mk. 2",1,0,0
+"Yakovlev Yak-40",1,0,0
