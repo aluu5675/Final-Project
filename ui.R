@@ -2,7 +2,7 @@
 library(shiny)
 library(shinythemes)
 library(plotly)
-source("Final Project.R")
+data_updated <- read.csv("data/updated_data.csv", stringsAsFactors = FALSE)
 
 
 max.for.fatality.slider <- max(as.numeric(data_updated$total_fatality), na.rm = TRUE)
@@ -114,3 +114,4 @@ ui <- fluidPage(
   )
 )
 )
+

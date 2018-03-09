@@ -2,18 +2,18 @@
 
 library("rworldmap")
 library('shiny')
-source("Final Project.R")
+source("data/read_data.R")
 
 server <- function(input, output) {
 
   output$pi.chart <- renderPlotly ({
    
      if(input$type == "military") {
-      data.in.use <- summary_year_military_year
+      data.in.use <- military_pi_data
     } else if (input$type == "private") {
-      data.in.use <- summary_year_private_year
+      data.in.use <-  private_pi_data
     } else if(input$type == "plane") {
-      datain.in.use <- summary_year_other_year
+      datain.in.use <- other_pi_data
     } else  {
       data.in.use <- data_updated
     }
@@ -47,11 +47,11 @@ server <- function(input, output) {
   
   output$table <- renderDataTable({
     if(input$type == "military") {
-      return(summary_year_military_plane)
+      return(military_table_data)
     } else if (input$type == "private") {
-      return(summary_year_private_plane)
+      return(private_table_data)
     } else if(input$type == "plane") {
-      return(summary_year_other_plane)
+      return(other_table_data)
     } else if(input$type == "data") {
       return(data_updated)
     }
@@ -71,3 +71,4 @@ server <- function(input, output) {
     
   })
 }
+
