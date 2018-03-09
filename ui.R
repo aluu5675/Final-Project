@@ -1,5 +1,6 @@
 # UI for Plane Crash App
 library(shiny)
+library(leaflet)
 library(shinythemes)
 library(plotly)
 data_updated <- read.csv("data/updated_data.csv", stringsAsFactors = FALSE)
@@ -123,4 +124,4 @@ ui <- fluidPage(
   )
 )
 
-)
+

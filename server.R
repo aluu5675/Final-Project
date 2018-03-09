@@ -70,3 +70,4 @@ server <- function(input, output) {
                                 ", ", as.character(mapping.data$fat.)))
   })
 }
+
