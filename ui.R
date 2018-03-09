@@ -34,77 +34,86 @@ ui <- fluidPage(
      
      h2(strong("Purpose")),
      
-     p("By extracting the data based location, fatalities, and operator,
+     p("By extracting the data based on location, fatalities, and operator,
        we can see how plane crash accidents have evolved over the years
        and the number of deaths that have occurred from these incidents.
        We can also infer what has happened through history to explain
        these incidents based on the date."),
      br(),
      
+     radioButtons("type", "Operator Type:",
+                  c("Military" = "military",
+                    "Private" = "private",
+                    "All data" = "data")),
+     
+     br(),
+     
      sliderInput("year",
-                 "Year:",
+                 "Year for Chart:",
                  value = c(1968,2018),
                  min = 1920,
                  max = 2018, 
                  dragRange = TRUE
-                 ),
+     ),
+     
      
      br(),
-     
-     a("Reference", href="https://aviation-safety.net/database/"),
      
      sliderInput("fatalities", "Select the Range of Fatalities to Display:", 
                  value = c(0, max.for.fatality.slider),
                  min = 0,
-                 max = max.for.fatality.slider)
-                 
+                 max = max.for.fatality.slider),
      
+     br(),
+     
+     a("Reference", href="https://aviation-safety.net/database/")
+                 
      
      ),
    
   
   mainPanel(                     
-    radioButtons("type", "Operator Type:",
-                 c("Military" = "military",
-                   "Private" = "private",
-                   "All data" = "data")), 
+    
     tabsetPanel(type = "tabs",
                 
                 tabPanel(strong("Table for Operator"), br(),
                          p("The data table gives a list of the operators involved in
-                           the crashes in the given years. By organizing the data by 
-                           military operators, we can see which types of operators
-                           are involved in the most accidents."), 
+                           the crashes. By organizing the data by military operators,
+                           private operators, or by any other operators we can see
+                           which types of operators are involved in the most accidents
+                           based on their category. This gives a sense 
+                           of the types of events that could've been happening during
+                           that time. There's a total occurrence column to indicate
+                           the total number of occurrences of accidents by that operator
+                           type, a total fatalties for the number of fatalies overall,
+                           and an average fatality."), 
                          dataTableOutput('table')),
   
                 
-                tabPanel(strong("Plots of Crash Data by Year"), br(), 
-                         p("The plots display graphs of average fatality
-                           over the given year due to plane crash accidents.
-                           We can see that fatalities are commonly low in
-                           the beginning years since traveling by plane is
-                           not as prevalent during this time period. Throughout 
-                           later decades, more and more accident become
-                           greater since planes are becoming a more a efficient
-                           way of travel. Safety becomes a greater priority in
-                           the current decade compared to the previous years.")),
-                
-                    
-                
-                tabPanel(strong("Map of Crashes"), br(), 
-                         p("On the map, we can see the places of where
-                           each plane site crash was by the given year.
-                           This gives a visual of where these types of crash
-                           sites are in the world. This also can give us a 
-                           sense of the country of where most of these 
-                           accidents are occurring. This could be explained
-                           by the current events happening in that country
-                           during that time."),
-                         plotOutput('plot')),
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
-                         p(""),
-                         plotlyOutput("pi.chart")
+                         p("The pie chart represents an overview of the fatalities
+                           by a range of years. The percentages represent each year's share
+                           of the number of fatalities by their ratio. As we can see,
+                           more of the current years become less induced into having
+                           fatalies per accident because there are more safety
+                           precautions taken on plane travel during this age."),
+                         plotlyOutput("pi.chart")),
+                         
+                tabPanel(strong("Map of Crashes"), br(), 
+                         p("On the map, we can see the places of where
+                            each plane site crash was by the given year.
+                            This gives a visual of where these types of crash
+                            sites are in the world. This also can give us a 
+                            sense of the country of where the biggest accident was
+                            This could be explained by the current events happening
+                            in that country during that time. By placing values
+                            the largest number of fatalies within that given
+                            year on the map, we can see which plane accidents
+                            had the greatest impact during that year and how
+                            these crashes have changed along the years."),
+                         leafletOutput('map'))            
+                
                 
                 
     )
@@ -113,5 +122,8 @@ ui <- fluidPage(
   
   )
 )
+<<<<<<< HEAD
 )
+=======
+>>>>>>> 25bf86c78e2c07b0a996d037989da1de8d4c1c36
 
