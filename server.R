@@ -3,6 +3,7 @@
 library("rworldmap")
 library('shiny')
 source("data/read_data.R")
+library(dplyr)
 
 server <- function(input, output) {
 
@@ -45,6 +46,72 @@ server <- function(input, output) {
     return(p)
   })
 
+  output$bar1.chart <- renderPlotly({
+    
+    if(input$type == "military") {
+      data.in.use <- military_pi_data
+    } else if (input$type == "private") {
+      data.in.use <-  private_pi_data
+    } else if(input$type == "plane") {
+      datain.in.use <- other_pi_data
+    } else  {
+      data.in.use <- data_updated
+    }
+    
+    
+    to.display <- data.in.use %>%
+      filter(year >= input$year[1] & year <= input$year[2]) %>%
+      filter(total_fatality >= input$fatalities[1] & total_fatality <= input$fatalities[2]) %>%
+      group_by(type) %>%
+      summarize(total = total_occurence[1],
+                fat = total_fatality[1],
+                average = total / fat)
+    
+    options(warn = -1) 
+    
+    p1 <- plot_ly(data = to.display, x = ~total, y = ~type, type = 'bar', orientation = 'h', 
+                  marker = list(color = 'red',
+                                line = list(color = 'black', width = 1)) ) %>%
+      layout(autosize = F, width = 700, height = 15000,
+             margin = list(l = 300),
+             title = "Total occurence of accidents by aircraft model")
+    
+    return(p1)
+  })
+  
+  output$bar2.chart <- renderPlotly({
+    
+    if(input$type == "military") {
+      data.in.use <- military_pi_data
+    } else if (input$type == "private") {
+      data.in.use <-  private_pi_data
+    } else if(input$type == "plane") {
+      datain.in.use <- other_pi_data
+    } else  {
+      data.in.use <- data_updated
+    }
+    
+    
+    to.display <- data.in.use %>%
+      filter(year >= input$year[1] & year <= input$year[2]) %>%
+      filter(total_fatality >= input$fatalities[1] & total_fatality <= input$fatalities[2]) %>%
+      group_by(type) %>%
+      summarize(total = total_occurence[1],
+                fat = total_fatality[1],
+                average = fat / total)
+    
+    
+    options(warn = -1) 
+    
+    p2 <- plot_ly(data = to.display, x = ~average, y = ~type, type = 'scatter',
+                  mode = 'lines', line = list(color = 'red')) %>%
+      layout(autosize = F, width = 700, height = 5000,
+             margin = list(l = 300),
+             title = "Average fatality per accident by aircraft model")
+    
+    return(p2)
+  })
+  
   output$table <- renderDataTable({
     if(input$type == "military") {
       return(military_table_data)
