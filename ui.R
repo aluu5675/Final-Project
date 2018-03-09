@@ -91,6 +91,21 @@ ui <- fluidPage(
                          dataTableOutput('table')),
   
                 
+                tabPanel(strong("Bar Chart of Crashes"), br(),
+                         p("The bar chart represents an overview of the fatalities
+                           by a range of years. The chart presents data within qualified years
+                           and fitality range. It shows the total occurences of accident by
+                           respective airplane models.
+                           As we can see, some of the specific type of aircraft have more accidents
+                           then others"),
+                         plotlyOutput("bar1.chart")),
+                
+                tabPanel(strong("Line Chart of Average fatality"), br(),
+                         p("The line chart contains data points from the qualified year and fatality,
+                           it shows within the qualifies datas, what is the average fatality for a single
+                           accident on a type of air plane. As we can see, some kind of airplane have
+                           significantly larger average fatality on a single accident"),
+                         plotlyOutput("bar2.chart")),
                 
                 tabPanel(strong("Pi Chart of Crashes"), br(),
                          p("The pie chart represents an overview of the fatalities
