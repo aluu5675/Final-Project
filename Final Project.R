@@ -116,10 +116,6 @@ colnames(data_updated)[colnames(data_updated) == "fat."] <- "total_fatality"
 data_updated[7:8] <- NULL
 
 
-MakeCsv <- function(file) {
-  characters <- lapply(file, as.character) 
-  name <- lapply(characters, paste0, ".csv")
-}
 
 data.frames <- list( "private_pi_data" = summary_year_private_year,
                      "military_pi_data" = summary_year_military_year,
@@ -131,8 +127,6 @@ data.frames <- list( "private_pi_data" = summary_year_private_year,
 
 mapply(write.csv, data.frames, file=paste0(names(data.frames), '.csv'), row.names = FALSE)
 
-test <- MakeCsv(data.frames)
-print(test)
 # data_month <- dat
 # data_month$date <- str_sub(data_month$date, 4, 6)
 

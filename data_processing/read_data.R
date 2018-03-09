@@ -3,7 +3,7 @@
 
  passenger.info <- read.csv("data/passenger_info.csv", stringsAsFactors = FALSE)
  dat <- read.csv("data/dat.csv", stringsAsFactors = FALSE)
- highest <- read.csv("data/highest.csv", stringsAsFactors = FALSE)
+ mapping.data <- read.csv("data/highest.csv", stringsAsFactors = FALSE)
  mapvalues <- read.csv("data/mapvalues.csv", stringsAsFactors = FALSE)
  military_pi_data <- read.csv("data/military_pi_data.csv", stringsAsFactors = FALSE)      
  military_table_data <- read.csv("data/military_table_data.csv", stringsAsFactors = FALSE)  
